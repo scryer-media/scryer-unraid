@@ -22,6 +22,24 @@ Scryer creates `/config/encryption.key` with mode `0600` when no external key
 is supplied. Preserve `/config`; it contains Scryer's database, settings,
 metadata, and the key required to decrypt stored credentials.
 
+## Screenshots
+
+### Overview
+
+![Scryer overview](https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/01-overview.png)
+
+### Discovery
+
+![Scryer discovery](https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/02-discovery.png)
+
+### Request
+
+![Scryer request queue](https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/03-request.png)
+
+### Import
+
+![Scryer import setup](https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/04-import.png)
+
 ## Support
 
 - [Getting started](https://www.scryer.media/scryer/docs/getting-started/)

@@ -22,6 +22,10 @@
   <Requires>Internet access for metadata and any configured indexer or download-client providers.</Requires>
   <Date>2026-08-03</Date>
   <License>GPL-3.0-only</License>
+  <Screenshot>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/01-overview.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/02-discovery.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/03-request.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/04-import.png</Screenshot>
 
   <Config Name="WebUI" Target="8080" Default="8080" Mode="tcp" Description="HTTP port for the Scryer web interface." Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/scryer" Mode="rw" Description="Persistent database, settings, metadata, and encryption key." Type="Path" Display="always" Required="true" Mask="false"/>
