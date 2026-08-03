@@ -28,17 +28,21 @@ metadata, and the key required to decrypt stored credentials.
 
 ![Scryer overview](https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/01-overview.webp)
 
+### Anime Library
+
+![Scryer anime library](https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/02-anime-library.webp)
+
 ### Discovery
 
-![Scryer discovery](https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/02-discovery.webp)
+![Scryer discovery](https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/03-discovery.webp)
 
 ### Request
 
-![Scryer request queue](https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/03-request.webp)
+![Scryer request queue](https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/04-request.webp)
 
 ### Import
 
-![Scryer import setup](https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/04-import.webp)
+![Scryer import setup](https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/05-import.webp)
 
 ## Support
 
