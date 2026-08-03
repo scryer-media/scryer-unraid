@@ -9,7 +9,7 @@
   <Icon>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/icon.png</Icon>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
 
-  <Overview>Scryer is a self-hosted media management application for movies, TV series, and anime. It monitors libraries, searches through pluggable providers, evaluates releases, coordinates downloads and imports, organizes files, and manages subtitles.</Overview>
+  <Overview>Scryer is a self-hosted, all-in-one media automation platform for movies, TV series, and anime. It can replace Radarr for movie management, Sonarr for series and anime management, Seerr for discovery and request approval workflows, and Bazarr for subtitle automation. Scryer monitors libraries and missing or cutoff-unmet media; discovers and searches releases through pluggable indexers; applies quality profiles, delay profiles, custom rules, and upgrade policies; coordinates download clients; imports, renames, organizes, and post-processes files; and integrates with downstream media servers. It also includes discovery recommendations, calendars, wanted and activity views, request queues, multi-user access controls, notifications, plugin-based providers, multilingual metadata, backups, security and audit tooling, and a responsive embedded web UI. Scryer was written from scratch and is not affiliated with the Servarr projects.</Overview>
   <Support>https://github.com/scryer-media/scryer/issues</Support>
   <Project>https://www.scryer.media/scryer/</Project>
   <TemplateURL>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/templates/scryer.xml</TemplateURL>
@@ -18,7 +18,7 @@
   <Reddit>https://www.reddit.com/r/scryer_media/</Reddit>
 
   <Category>Downloaders: MediaApp:Video</Category>
-  <ExtraSearchTerms>movies tv series anime sonarr radarr media automation subtitles</ExtraSearchTerms>
+  <ExtraSearchTerms>movies tv series anime sonarr radarr seerr bazarr requests media automation subtitles</ExtraSearchTerms>
   <Requires>Internet access for metadata and any configured indexer or download-client providers.</Requires>
   <Date>2026-08-03</Date>
   <License>GPL-3.0-only</License>

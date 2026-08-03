@@ -5,8 +5,42 @@
 # Scryer for Unraid
 
 Official Unraid Community Apps template for
-[Scryer](https://github.com/scryer-media/scryer), a self-hosted media
-management application for movies, TV series, and anime.
+[Scryer](https://github.com/scryer-media/scryer), a self-hosted, all-in-one
+media automation platform for movies, TV series, and anime. Scryer combines
+library management, discovery, requests, acquisition, imports, and subtitles
+in one efficient application with an embedded web interface.
+
+## What Scryer Replaces
+
+Scryer can replace several separate applications with one coordinated system:
+
+- **Radarr** for movie monitoring, searching, upgrades, importing, renaming,
+  and organization
+- **Sonarr** for TV series and anime monitoring, episode tracking, searching,
+  upgrades, importing, renaming, and organization
+- **Seerr** for discovery, user requests, request queues, and approval workflows
+- **Bazarr** for subtitle discovery, acquisition, and management
+
+Scryer was written from scratch and is not affiliated with the Servarr
+projects.
+
+## Major Features
+
+- Unified movie, TV series, and anime catalogs with monitoring, wanted,
+  calendar, history, and activity views
+- Discovery recommendations plus multi-user request and approval workflows
+- Pluggable indexers, download clients, subtitle providers, notifications, and
+  media-server integrations
+- Quality and delay profiles, custom release rules, cutoff upgrades, and
+  automated release selection
+- Coordinated downloads, imports, file renaming and organization,
+  post-processing scripts, and recycle-bin recovery
+- Automated subtitle searching and management
+- Multilingual metadata and an interface that follows the selected language
+- User access controls, authentication, API keys, security and audit tooling,
+  encrypted credentials, and backup/restore
+- Responsive embedded web UI, GraphQL API, scheduled jobs, logs, and health
+  monitoring in an efficient compiled Rust service
 
 ## Container
 
