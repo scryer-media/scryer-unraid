@@ -3,6 +3,8 @@
   <Icon>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/icon.png</Icon>
   <WebPage>https://www.scryer.media/scryer/</WebPage>
   <Forum>https://github.com/scryer-media/scryer/issues</Forum>
+  <Discord>https://discord.gg/SQmtZTanqm</Discord>
+  <Reddit>https://www.reddit.com/r/scryer_media/</Reddit>
   <DonateLink>https://www.scryer.media/scryer/donate/</DonateLink>
   <DonateText>Support Scryer development</DonateText>
 </CommunityApplications>

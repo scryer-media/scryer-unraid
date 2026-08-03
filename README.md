@@ -26,6 +26,8 @@ metadata, and the key required to decrypt stored credentials.
 
 - [Getting started](https://www.scryer.media/scryer/docs/getting-started/)
 - [Issue tracker](https://github.com/scryer-media/scryer/issues)
+- [Discord](https://discord.gg/SQmtZTanqm)
+- [Reddit](https://www.reddit.com/r/scryer_media/)
 - [Source code](https://github.com/scryer-media/scryer)
 
 ## Licensing
