@@ -1,0 +1,8 @@
+<CommunityApplications>
+  <Profile>Official Unraid Community Apps template for Scryer, maintained by Scryer Media.</Profile>
+  <Icon>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/icon.png</Icon>
+  <WebPage>https://www.scryer.media/scryer/</WebPage>
+  <Forum>https://github.com/scryer-media/scryer/issues</Forum>
+  <DonateLink>https://www.scryer.media/scryer/donate/</DonateLink>
+  <DonateText>Support Scryer development</DonateText>
+</CommunityApplications>
