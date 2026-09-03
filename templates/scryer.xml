@@ -9,7 +9,7 @@
   <Icon>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/icon.png</Icon>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
 
-  <Overview>Scryer is a self-hosted, all-in-one media automation platform for movies, TV series, and anime. It can replace Radarr for movie management, Sonarr for series and anime management, Seerr for discovery and request approval workflows, and Bazarr for subtitle automation. Scryer monitors libraries and missing or cutoff-unmet media; discovers and searches releases through pluggable indexers; applies quality profiles, delay profiles, custom rules, and upgrade policies; coordinates download clients; imports, renames, organizes, and post-processes files; and integrates with downstream media servers. It also includes discovery recommendations, calendars, wanted and activity views, request queues, multi-user access controls, notifications, plugin-based providers, multilingual metadata, backups, security and audit tooling, and a responsive embedded web UI. Scryer was written from scratch and is not affiliated with the Servarr projects.</Overview>
+  <Overview>Scryer is a self-hosted media manager for movies, TV series, and anime. It unifies library management, discovery, requests, downloads, imports, subtitles, and media-server integrations in one responsive web app.</Overview>
   <Support>https://github.com/scryer-media/scryer/issues</Support>
   <Project>https://www.scryer.media/scryer/</Project>
   <TemplateURL>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/templates/scryer.xml</TemplateURL>
@@ -22,11 +22,15 @@
   <Requires>Internet access for metadata and any configured indexer or download-client providers.</Requires>
   <Date>2026-08-03</Date>
   <License>GPL-3.0-only</License>
-  <Screenshot>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/01-overview.webp</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/01-movies.webp</Screenshot>
   <Screenshot>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/02-anime-library.webp</Screenshot>
   <Screenshot>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/03-discovery.webp</Screenshot>
   <Screenshot>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/04-request.webp</Screenshot>
   <Screenshot>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/05-import.webp</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/06-dashboard.webp</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/07-search.webp</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/08-calendar.webp</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/09-rules.webp</Screenshot>
 
   <Config Name="WebUI" Target="8080" Default="8080" Mode="tcp" Description="HTTP port for the Scryer web interface." Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/scryer" Mode="rw" Description="Persistent database, settings, metadata, and encryption key." Type="Path" Display="always" Required="true" Mask="false"/>

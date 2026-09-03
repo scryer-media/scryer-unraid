@@ -58,9 +58,9 @@ metadata, and the key required to decrypt stored credentials.
 
 ## Screenshots
 
-### Overview
+### Movies
 
-![Scryer overview](https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/01-overview.webp)
+![Scryer movies](https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/01-movies.webp)
 
 ### Anime Library
 
@@ -77,6 +77,22 @@ metadata, and the key required to decrypt stored credentials.
 ### Import
 
 ![Scryer import setup](https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/05-import.webp)
+
+### Dashboard
+
+![Scryer dashboard](https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/06-dashboard.webp)
+
+### Search
+
+![Scryer search](https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/07-search.webp)
+
+### Calendar
+
+![Scryer calendar](https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/08-calendar.webp)
+
+### Rules
+
+![Scryer rules](https://raw.githubusercontent.com/scryer-media/scryer-unraid/main/screenshots/09-rules.webp)
 
 ## Support
 
