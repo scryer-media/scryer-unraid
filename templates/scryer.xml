@@ -34,10 +34,7 @@
 
   <Config Name="WebUI" Target="8080" Default="8080" Mode="tcp" Description="HTTP port for the Scryer web interface." Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/scryer" Mode="rw" Description="Persistent database, settings, metadata, and encryption key." Type="Path" Display="always" Required="true" Mask="false"/>
-  <Config Name="Movies Library" Target="/data/movies" Default="" Mode="rw" Description="Optional host directory containing or receiving managed movies." Type="Path" Display="always" Required="false" Mask="false"/>
-  <Config Name="Series Library" Target="/data/series" Default="" Mode="rw" Description="Optional host directory containing or receiving managed TV series." Type="Path" Display="always" Required="false" Mask="false"/>
-  <Config Name="Anime Library" Target="/data/anime" Default="" Mode="rw" Description="Optional host directory containing or receiving managed anime." Type="Path" Display="always" Required="false" Mask="false"/>
-  <Config Name="Metadata Gateway" Target="SCRYER_METADATA_GATEWAY_GRAPHQL_URL" Default="https://smg.scryer.media/graphql" Description="Scryer metadata gateway GraphQL endpoint." Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Data" Target="/data" Default="/mnt/user/data" Mode="rw" Description="Parent share holding your downloads and media libraries. Give your download client the same mapping so imports can hard-link instead of copy. Set library folders in the Scryer web UI." Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Description="User ID used to own /config and run Scryer." Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Description="Group ID used to own /config and run Scryer." Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="Timezone" Target="TZ" Default="Etc/UTC" Description="Container timezone, for example America/Denver." Type="Variable" Display="advanced" Required="false" Mask="false"/>

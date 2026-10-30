@@ -47,10 +47,19 @@ projects.
 - Image: `ghcr.io/scryer-media/scryer:latest`
 - Web UI: container port `8080`
 - Persistent configuration: `/config`
-- Optional libraries: `/data/movies`, `/data/series`, and `/data/anime`
+- Downloads and media libraries: `/data`
 
-The media-library mappings are optional. They can be added during installation
-or later when Scryer is ready to manage files on the Unraid host.
+Map one parent share to `/data`, and give your download client the same
+mapping. The default is `/mnt/user/data`, which suits the TRaSH Guides layout.
+Scryer must see completed downloads at the path the client reports, such as
+`/data/torrents`, and hard links only work inside a single mount. Mapping
+downloads and libraries separately makes every import a full copy.
+
+Set your library folders in the Scryer web UI, for example `/data/media/movies`.
+
+Existing installs that map `/data/movies`, `/data/series`, or `/data/anime` can
+switch by adding the `/data` path and removing those mappings. Update the
+library folders in Scryer if their paths changed.
 
 Scryer creates `/config/encryption.key` with mode `0600` when no external key
 is supplied. Preserve `/config`; it contains Scryer's database, settings,
